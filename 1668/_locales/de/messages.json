@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Plugin-Beschreibung",
+      "message": "Offizielles 1688-Plugin für Screenshots, Produktsuche, Verkaufsanalysen und Benachrichtigungen. Ihr Partner beim Einkaufen."
+   },
+   "extensionName": {
+      "description": "Plugin-Name",
+      "message": "1688 Einkaufsassistent Plugin"
+   }
+}

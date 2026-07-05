@@ -1,0 +1,31 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "חיפוש תמונה של AiPrice מאפשר לך למצוא בקלות מקורות מוצרים."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — חיפוש לפי תמונה ליבוא מסין "
+   },
+   "context_menu_screenshot_search": {
+      "message": "צילום לחיפוש לפי תמונה"
+   },
+   "context_menus_goote_trans": {
+      "message": "תרגם עמוד/הצג מקור"
+   },
+   "context_menus_search_by_image": {
+      "message": "חיפוש לפי תמונה על עליבאבא"
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "לכידת $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "לכיד לתרגום"
+   },
+   "searchByImage_search": {
+      "message": "חפש בלחיצה אחת עבור אותם פריטים"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "プラグイン説明",
+      "message": "1688公式プラグインで、ワンクリックスクリーンショット、類似製品検索、販売トレンド、素材ダウンロード、ワンワン通知をサポートします。"
+   },
+   "extensionName": {
+      "description": "プラグイン名",
+      "message": "1688購入アシスタントプラグイン"
+   }
+}

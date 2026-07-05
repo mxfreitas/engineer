@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Iskanje po sliki AiPrice vam omogoča enostavno iskanje virov izdelkov na spletnih trgovinah."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Iskanje po sliki za uvoz iz Kitajske"
+   },
+   "context_menu_screenshot_search": {
+      "message": "එකම ශෛලිය සඳහා තිරපිටපත් සෙවීම"
+   },
+   "context_menus_goote_trans": {
+      "message": "Prevedi stran/prikaži izvirnik"
+   },
+   "context_menus_search_by_image": {
+      "message": "Iskanje po sliki na $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Zajem v $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Posnemite za prevajanje"
+   },
+   "searchByImage_search": {
+      "message": "Iskanje istih predmetov z enim klikom"
+   }
+}

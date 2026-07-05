@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "La búsqueda por imagen de AiPrice te permite encontrar fácilmente fuentes de productos."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — búsqueda por imagen para importaciones de China"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Capturar para buscar por imagen"
+   },
+   "context_menus_goote_trans": {
+      "message": "Traducir página / Restaurar original"
+   },
+   "context_menus_search_by_image": {
+      "message": "Búsqueda por imagen en $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Captura a $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Traducir captura"
+   },
+   "searchByImage_search": {
+      "message": "Búsqueda rápida de artículos iguales"
+   }
+}

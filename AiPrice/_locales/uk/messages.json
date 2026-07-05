@@ -1,0 +1,31 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Пошук за зображенням AiPrice дозволяє легко знаходити джерела товарів на сайтах електронної комерції."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Пошук за зображенням для імпорту з Китаю"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Пошук скріншотів для того самого стилю"
+   },
+   "context_menus_goote_trans": {
+      "message": "Перекласти сторінку/Показати оригінал"
+   },
+   "context_menus_search_by_image": {
+      "message": "Пошук по зображенню на $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Захоплення Алібабою"
+   },
+   "context_menus_translator": {
+      "message": "Зніміть, щоб перекласти"
+   },
+   "searchByImage_search": {
+      "message": "Пошук однакових елементів одним клацанням миші"
+   }
+}

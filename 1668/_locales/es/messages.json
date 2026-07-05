@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Descripción del Plugin",
+      "message": "Plugin oficial de 1688 para capturas de pantalla, búsqueda de productos, análisis de ventas, descargas y notificaciones Wangwang."
+   },
+   "extensionName": {
+      "description": "Nombre del Plugin",
+      "message": "Versión del Plugin Asistente de Compras 1688"
+   }
+}

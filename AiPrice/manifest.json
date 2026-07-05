@@ -1,0 +1,67 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/16.png",
+         "32": "icons/32.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "assets/js/background.js"
+   },
+   "commands": {
+      "screenshotToImageSearch": {
+         "description": "__MSG_context_menu_screenshot_search__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+1",
+            "mac": "Command+Shift+1"
+         }
+      },
+      "screenshotToTranslate": {
+         "description": "__MSG_context_menus_translator__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+3",
+            "mac": "Command+Shift+3"
+         }
+      },
+      "translateWebpage": {
+         "description": "__MSG_context_menus_goote_trans__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+2",
+            "mac": "Command+Shift+2"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "assets/css/content-script.css" ],
+      "js": [ "assets/js/chunk-common-5c551db8.js", "assets/js/chunk-common-e3b6d224.js", "assets/js/chunk-vendors-6185be05.js", "assets/js/chunk-vendors-aacc2dbb.js", "assets/js/content-script.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_EXTENSION_DESCRIPTION__",
+   "homepage_url": "https://www.aiprice.com?ext_id=1077&channel=chrome&platform=alibaba_search_by_image&version=4.0.5&browser=chrome&mv=3",
+   "host_permissions": [ "*://*.aliprice.com/*", "\u003Call_urls>", "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvo4sShL6kjWhWM9ma0p6Pb4fvDGHJeVCp5/mSx0shTJL7J8TIrCr1jnk//zTyAt9iXosEn4XYNByM2H1ymbDaA6UCPABQnbSyldzEXFVYGnandV77Q6KimK0Ad4hfHKCXDIAZpH4bQ95sTKid+2nedHFxWB2Y80bRn9Ak//OjelB2x61dIUa8JSJ4ZE4SLsCvZ+E2mXmh3Cm3FNblAx4KJK0tRtruupbf5Mzir3sdAYm1JqSNV6WHC7BAHsKtT4Na/Ppj06aOyHIyGZypAIfA8xks2PFCYZVf3t9uyTdMgjl4EsPY/H/5Yy9XKQ4V3wsRx7y3wE9SPd7rVHzcgNsCwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_EXTENSION_NAME__",
+   "optional_permissions": [ "downloads" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "alarms", "contextMenus", "cookies", "declarativeNetRequest", "declarativeNetRequestFeedback", "notifications", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.5",
+   "web_accessible_resources": [ {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "assets/*" ]
+   } ]
+}

@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Căutarea după imagine AiPrice vă permite să găsiți cu ușurință sursele produselor pe site-urile de comerț electronic."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Căutare după imagine pentru Import China"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Căutare captură de ecran pentru același stil"
+   },
+   "context_menus_goote_trans": {
+      "message": "Traduceți pagina/Afișați originalul"
+   },
+   "context_menus_search_by_image": {
+      "message": "Căutați după imagine pe $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Capturați la $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Captură pentru a traduce"
+   },
+   "searchByImage_search": {
+      "message": "Căutare cu un singur clic pentru aceleași articole"
+   }
+}

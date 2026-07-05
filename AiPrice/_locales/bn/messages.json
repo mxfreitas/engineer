@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice এর ছবি অনুসন্ধান আপনাকে ই-কমার্স সাইটে পণ্যের উৎস সহজে খুঁজে পেতে সাহায্য করে।"
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — চীন আমদানি জন্য ছবি দিয়ে অনুসন্ধান"
+   },
+   "context_menu_screenshot_search": {
+      "message": "চিত্র দ্বারা অনুসন্ধান করতে ক্যাপচার"
+   },
+   "context_menus_goote_trans": {
+      "message": "পৃষ্ঠা অনুবাদ করুন/মূল দেখান"
+   },
+   "context_menus_search_by_image": {
+      "message": "$storeName$ এ চিত্র দ্বারা অনুসন্ধান করুন",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "$storeName$ ক্যাপচার",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "অনুবাদ করতে ক্যাপচার করুন"
+   },
+   "searchByImage_search": {
+      "message": "একই আইটেমগুলির জন্য এক-ক্লিক অনুসন্ধান করুন"
+   }
+}

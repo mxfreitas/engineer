@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice 이미지 검색은 전자상거래 사이트에서 상품 소스를 쉽게 찾을 수 있게 해줍니다."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — 중국 수입 이미지 검색"
+   },
+   "context_menu_screenshot_search": {
+      "message": "스크린샷 검색"
+   },
+   "context_menus_goote_trans": {
+      "message": "번역/원본"
+   },
+   "context_menus_search_by_image": {
+      "message": "$storeName$에서 이미지로 검색",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "$storeName$로 캡처",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "캡처 및 번역"
+   },
+   "searchByImage_search": {
+      "message": "클릭 한 번으로 동일 상품 검색"
+   }
+}

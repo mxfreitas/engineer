@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "Avantpro extension for detailed competition analysis on Shopee."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "Avantpro SHP"
+   }
+}

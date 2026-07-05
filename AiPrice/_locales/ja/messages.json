@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice 画像検索は、ECサイトでの元商品の検索を容易にします。"
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) 中国輸入向け画像検索"
+   },
+   "context_menu_screenshot_search": {
+      "message": "キャプチャで画像検索"
+   },
+   "context_menus_goote_trans": {
+      "message": "ページを翻訳／原文を表示"
+   },
+   "context_menus_search_by_image": {
+      "message": "$storeName$で画像で検索",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "$storeName$にキャプチャ",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "キャプチャして翻訳"
+   },
+   "searchByImage_search": {
+      "message": "類似品検索"
+   }
+}

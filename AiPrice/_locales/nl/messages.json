@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Met AiPrice Zoeken via Afbeelding kunt u eenvoudig de bron van producten op e-commercewebsites vinden."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Zoeken via Afbeelding voor China Import"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Screenshot zoeken voor dezelfde stijl"
+   },
+   "context_menus_goote_trans": {
+      "message": "Pagina vertalen/Origineel weergeven"
+   },
+   "context_menus_search_by_image": {
+      "message": "Zoek op afbeelding op $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Leg vast in $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Vastleggen om te vertalen"
+   },
+   "searchByImage_search": {
+      "message": "Zoek soortgelijk product"
+   }
+}

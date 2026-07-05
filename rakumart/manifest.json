@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "layer.css", "layui.css", "webui-popover.css", "jquery-ui.css" ],
+      "js": [ "jquery-3.5.1.min.js", "layui.js", "jquery-ui.min.js", "hoverintent.min.js", "layer.js", "lq-score.min.js", "public.js", "event.js", "function.js", "message.js", "pluginDomLoading.js", "globalLoading.js", "aiDialogLoading.js", "translate.js", "xlsx.js", "ExportExcelWithPic.js", "echarts.min.js", "jszip.min.js", "FileSaver.js", "md5.js", "Blob.js", "webui-popover.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Escolha imagens de outros sites de compras e pesquise-as no Rakumart.br para comprar diretamente de fabricantes na China.",
+   "host_permissions": [ "https://www.rakumart.com/", "http://www.rakumart.com/" ],
+   "icons": {
+      "128": "img/128-128.png",
+      "16": "img/16-16.png",
+      "48": "img/48-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiTDmka9kXC/MS1GVa1EAOoFu+MCq1DAFsQvY9q7Nq4LUSprhq06/F5epnybdSH0tPv4iS1JsD/LIoppeUihSpIi7VXg5+o/XlpBzYNiyZU16m5ClhNWqCYqjNU224mFUkhJRTfTLiVbUxBfD/ntHRnViY/CrMj2ZmL3979m2IWn6V0UIImGNUJsEEUTd5OArsx/S/AV74GLmW7rEUGADMSnXg49Gec8FN+UvlxGgXfsu8SAWwvHAltmYq3Pjyp0oL605bTAGhpjLdChc/0eeBEpVufTfPJT+IDhq6tm3DNPqp8TkecmyjPFhetrIH0OxQuYci7Rjy5o77SZspSoi7QIDAQAB",
+   "manifest_version": 3,
+   "name": "Pesquisa o mesmo produto em Rakumart.br",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

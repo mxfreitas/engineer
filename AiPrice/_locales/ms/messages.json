@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Carian Mengikut Imej AiPrice membolehkan anda mencari sumber barang dengan mudah di laman web e-dagang."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Carian Mengikut Imej untuk Import China"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Tangkap untuk mencari mengikut imej"
+   },
+   "context_menus_goote_trans": {
+      "message": "Terjemah halaman/Tunjukkan asal"
+   },
+   "context_menus_search_by_image": {
+      "message": "Cari mengikut gambar di $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Tangkap ke $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Tangkap untuk menterjemah"
+   },
+   "searchByImage_search": {
+      "message": "Carian satu klik untuk item yang sama"
+   }
+}

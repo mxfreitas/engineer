@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice以图搜货神器可以让你轻松地在跨境电商网站上找到同款货源。"
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice)中国进口图片搜索"
+   },
+   "context_menu_screenshot_search": {
+      "message": "截图搜索同款"
+   },
+   "context_menus_goote_trans": {
+      "message": "翻译网页/恢复原文"
+   },
+   "context_menus_search_by_image": {
+      "message": "在$storeName$上以图搜同款",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "截图去$storeName$搜同款",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "截图翻译"
+   },
+   "searchByImage_search": {
+      "message": "一键搜索同款"
+   }
+}

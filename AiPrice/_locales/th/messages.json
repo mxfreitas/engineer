@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "การค้นหาด้วยภาพของ AiPrice ช่วยให้คุณค้นหาแหล่งสินค้าบนเว็บไซต์อีคอมเมิร์ซได้ง่ายขึ้น"
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — ค้นหาด้วยภาพสำหรับนำเข้าจากจีน"
+   },
+   "context_menu_screenshot_search": {
+      "message": "ค้นหาภาพหน้าจอสำหรับสไตล์เดียวกัน"
+   },
+   "context_menus_goote_trans": {
+      "message": "แปลหน้า/แสดงต้นฉบับ"
+   },
+   "context_menus_search_by_image": {
+      "message": "ค้นหาตามภาพใน $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "จับภาพไปที่ $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "จับภาพเพื่อแปล"
+   },
+   "searchByImage_search": {
+      "message": "ค้นหารายการเดียวกันด้วยคลิกเดียว"
+   }
+}

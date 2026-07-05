@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": "public/icons/128x128.png",
+      "default_title": "Avantpro SHP"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "common.js", "index.js" ],
+      "matches": [ "http://*.shopee.com.br/*", "https://*.shopee.com.br/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "preload.js" ],
+      "matches": [ "http://*.shopee.com.br/*", "https://*.shopee.com.br/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://posthog.avantprocloud.com.br https://us.i.posthog.com;"
+   },
+   "default_locale": "pt_BR",
+   "description": "Extensão Avantpro para análise detalhada de concorrência no Shopee.",
+   "host_permissions": [ "https://*.shopee.com/*", "https://*.shopee.com.br/*", "https://*.shopee.co.id/*", "https://*.shopee.ph/*", "https://*.shopee.sg/*", "https://*.shopee.com.my/*", "https://*.shopee.co.th/*", "https://*.shopee.vn/*", "https://*.shopee.tw/*" ],
+   "icons": {
+      "128": "public/icons/128x128.png",
+      "16": "public/icons/16x16.png",
+      "48": "public/icons/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl8btcs1YXhX0FNlMzHfT+3xfqVYM69YvQhPP4zUN1wg73M/Gwf4AS+8K9mVE88eNbgq7tqdKmjgprBh0gZc8XNn04rUn7eGSAJqutjUEHQnzYX2vm+7I6PtYufDm2UOicFAqPE/p3e1WpbhD5Ga78R5EHHp6RYwqFe1+BWY75FN98HqyLORpT+9NCdAioxUn9GJVn778YwoGS+xC8a0lyx3uNhUOh+8FuUeCeuweSO/fUQzu4JDa8CME0AO025pGde1NNaz2a35RjvIQfGLZDp1UU2G9+tRDknJTfHBoXmw/t30ofsYabaOQ7+TjvquWfy6kr+Wdvy1ABwUTZb2sxwIDAQAB",
+   "manifest_version": 3,
+   "name": "Avantpro SHP",
+   "permissions": [ "activeTab", "tabs", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.5.0",
+   "web_accessible_resources": [ {
+      "matches": [ "http://*.shopee.com.br/*", "https://*.shopee.com.br/*" ],
+      "resources": [ "interceptor.js", "public/icons/128x128.png", "public/icons/16x16.png", "public/icons/48x48.png", "public/icons/disabled-128x128.png", "public/icons/disabled-16x16.png", "public/icons/disabled-48x48.png", "public/icons/disabled-icone.png", "public/icons/icone.png", "public/images/add-account-vinculation.png", "public/images/already-vinculated.png", "public/images/negative-feedback.png", "public/images/vinculation-avantpro-ml.png", "public/images/sync-image.png", "*.woff2", "*.woff" ]
+   } ]
+}

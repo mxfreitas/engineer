@@ -1,0 +1,7 @@
++-------------------------------------------------------------------------------------------------------------------------+
+|                                     Copyright © 2021 Avantpro - Direitos Autorais                                       |
+|  Esse código possui Registro de Propriedade Intelectual pelo INPI conforme Processo Nº: ****************                |
+|  Registro disponível para acesso em: http://ramsolution.com.br/*************                                            |
+|  Qualquer reprodução (total ou parcial) do código presente na extensão Avantpro, sem a prévia autorização,              |
+|  é proibida e será penalizada conforme o código penal.                                                                  |
++-------------------------------------------------------------------------------------------------------------------------+

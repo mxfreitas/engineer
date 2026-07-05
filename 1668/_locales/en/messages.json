@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Plugin description",
+      "message": "Official 1688 Plugin for screenshots, product searches, sales trends, downloads, and Wangwang notifications."
+   },
+   "extensionName": {
+      "description": "Plugin name",
+      "message": "1688 Purchasing Assistant Plugin"
+   }
+}

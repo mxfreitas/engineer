@@ -1,0 +1,149 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.be4ef7c1.png",
+         "16": "icon16.plasmo.bdf249cb.png",
+         "32": "icon32.plasmo.05bb7f90.png",
+         "48": "icon48.plasmo.a32f0d4b.png",
+         "64": "icon64.plasmo.0ee4cf32.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "commands": {
+      "screenshot": {
+         "description": "一键截图找同款",
+         "suggested_key": {
+            "default": "Ctrl+Shift+2",
+            "mac": "Command+Shift+2"
+         }
+      },
+      "show_entry": {
+         "description": "显示侧边按钮",
+         "suggested_key": {
+            "default": "Ctrl+Shift+1",
+            "mac": "Command+Shift+1"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "aiFindInMainSearch.d85bc82a.js" ],
+      "matches": [ "*://s.1688.com/selloffer/offer_search.htm*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "exclude_matches": [ "*://*.alibaba-inc.com/*", "*://*.dingtalk.com/*" ],
+      "js": [ "allWebsite.e084e880.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "bindShop.bf8ce889.js" ],
+      "matches": [ "https://seller.shopee.cn/*", "https://seller.ozon.ru/app/dashboard/main*", "https://csp.aliexpress.com/m_apps/aechoice-info-manage/sub-infoMange-aeChoice*", "https://seller.tiktokshopglobalselling.com/homepage*", "https://seller.kuajingmaihuo.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "content-script.49c7f7ee.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "content-scripts-of-pick.7776a3b9.js" ],
+      "matches": [ "*://s.1688.com/youyuan/index.htm*", "*://s.1688.com/selloffer/similar_search.htm*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "content.0f069321.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [  ],
+      "js": [ "detailPanel.ba624b85.js" ],
+      "matches": [ "https://detail.1688.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "findSameGoodsBtn.6dd45fec.css" ],
+      "js": [ "findSameGoodsBtn.3ed716dc.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "getWWUnRead.21bf76f1.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "installationChecker.1c3dad9b.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "orderLogistics.f491b9f7.js" ],
+      "matches": [ "https://work.1688.com/home/buyer.htm*", "https://trade.1688.com/order/*", "https://*.1688.com/app/ctf-page/trade-order-list/buyer-order-list.html*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "exclude_matches": [ "*://*.alibaba-inc.com/*", "*://*.dingtalk.com/*" ],
+      "js": [ "pagePilot.f212008d.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [  ],
+      "js": [ "wordsQuickCopy.f8d2e6a5.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "exclude_matches": [ "*://*.jd.com/*" ],
+      "js": [ "wordsSelection.08ebf15a.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "font.02aa5140.css" ],
+      "js": [ "FloatingAssistant.d52f9211.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "font.02aa5140.css" ],
+      "js": [ "detailPanelPopUp.b5961dc1.js" ],
+      "matches": [ "https://detail.1688.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_extensionDescription__",
+   "externally_connectable": {
+      "matches": [ "https://*.1688.com/*" ]
+   },
+   "host_permissions": [ "https://*/*", "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon128.plasmo.be4ef7c1.png",
+      "16": "icon16.plasmo.bdf249cb.png",
+      "32": "icon32.plasmo.05bb7f90.png",
+      "48": "icon48.plasmo.a32f0d4b.png",
+      "64": "icon64.plasmo.0ee4cf32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4hoMLiyq4H6qXsMNSP9AQIbT9t1Ea/sbMO+dqc4US2QdO0Q667cGyhUZZ53SMF3Si2Cf5tNxMLidZJ9R4lBOU+Djh9DHgKAqKqDZhuFMDF5hLQ6z3nXpRS6vAxXzW9bgG3ghxe/HpFa+Akr+8s5Z2bEq0EQEcXFZ3zzZYWP3MZx7Jj7sytjKAV4P9XLjZPDmvhi5juo7HUXi8ykz8r2kYhEfFlB5EcYvRCCjzCmUHmKu+VY0O0+WKssMe0mrBA2bnYRg4WNccZnXWaVvNeFDr1dcCL1ZcKZN4XoT+wrWgK7No5v0V8IP9qJAqUYHhVWkhlpR+bRu2keW54XRARZXFQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "92",
+   "name": "__MSG_extensionName__",
+   "optional_permissions": [ "downloads" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "sidePanel", "declarativeNetRequest", "declarativeNetRequestFeedback", "alarms", "webNavigation", "contextMenus", "scripting", "cookies", "webRequest", "idle" ],
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.4"
+}

@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice Görsel Arama, ürün kaynaklarını kolayca bulmanızı sağlar."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Çin İthalatı Görsel Arama"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Aynı stil için ekran görüntüsü araması"
+   },
+   "context_menus_goote_trans": {
+      "message": "Web Sayfasını Çevir/Orijinale Dön"
+   },
+   "context_menus_search_by_image": {
+      "message": "$storeName$'da görselle ara",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "$storeName$'ya Yakala",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Ekran Görüntüsünü Çevir"
+   },
+   "searchByImage_search": {
+      "message": "Benzer ürünleri hızlı ara"
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Tìm kiếm bằng hình ảnh của AiPrice giúp bạn dễ dàng tìm nguồn hàng."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — tìm kiếm bằng hình ảnh cho hàng nhập khẩu Trung Quốc"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Ảnh chụp màn hình tìm kiếm cùng kiểu"
+   },
+   "context_menus_goote_trans": {
+      "message": "Dịch trang / Khôi phục gốc"
+   },
+   "context_menus_search_by_image": {
+      "message": "Tìm kiếm bằng hình ảnh trên $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Chụp vào $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Dịch ảnh chụp"
+   },
+   "searchByImage_search": {
+      "message": "Tìm nhanh sản phẩm giống nhau"
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Sök med bild-funktionen i AiPrice låter dig enkelt hitta produktkällor på e-handelswebbplatser."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Sök med bild för Kinaimport"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Skärmdumpsökning för samma stil"
+   },
+   "context_menus_goote_trans": {
+      "message": "Översätt sida/Visa original"
+   },
+   "context_menus_search_by_image": {
+      "message": "Sök efter bild på $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Fånga till $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Fånga för att översätta"
+   },
+   "searchByImage_search": {
+      "message": "Sök med ett klick efter samma objekt"
+   }
+}

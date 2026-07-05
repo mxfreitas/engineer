@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "AiPrice Search by Image memudahkan Anda menemukan sumber barang di situs e-commerce."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) Search by Image untuk Impor China"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Tangkap untuk mencari berdasarkan gambar"
+   },
+   "context_menus_goote_trans": {
+      "message": "Terjemahkan halaman/Tampilkan yang asli"
+   },
+   "context_menus_search_by_image": {
+      "message": "Telusuri pakai gambar di $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Tangkap ke $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Tangkap untuk diterjemahkan"
+   },
+   "searchByImage_search": {
+      "message": "Pencarian sekali klik untuk item yang sama"
+   }
+}

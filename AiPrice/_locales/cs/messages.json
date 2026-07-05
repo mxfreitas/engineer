@@ -1,0 +1,36 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Vyhledávání podle obrázku AiPrice vám umožňuje snadno najít zdroje zboží na webových stránkách e-commerce."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — vyhledávání podle obrázku pro dovoz z Číny"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Zachytit pro vyhledávání podle obrázku"
+   },
+   "context_menus_goote_trans": {
+      "message": "Přeložit stránku/Zobrazit originál"
+   },
+   "context_menus_search_by_image": {
+      "message": "Hledání podle obrázku na $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Zachyťte do $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Zachytit a přeložit"
+   },
+   "searchByImage_search": {
+      "message": "Jedním kliknutím vyhledáte stejné položky"
+   }
+}

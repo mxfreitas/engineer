@@ -1,0 +1,1 @@
+!function(){try{globalThis.__BUILD_NODE_ENV__="production"}catch(t){}}(),(()=>{"use strict";(()=>{const t=chrome.runtime.getURL("interceptor.js"),e=document.createElement("script");e.src=t,e.type="text/javascript",(document.head||document.documentElement).appendChild(e)})()})();

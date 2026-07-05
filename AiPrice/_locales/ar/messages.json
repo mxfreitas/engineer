@@ -1,0 +1,26 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "يتيح لك البحث بالصورة من علي برايس العثور بسهولة على مصادر السلع في مواقع التجارة الإلكترونية."
+   },
+   "EXTENSION_NAME": {
+      "message": "علي برايس — البحث بالصورة لواردات الصين"
+   },
+   "context_menu_screenshot_search": {
+      "message": "التقاط للبحث عن طريق الصورة"
+   },
+   "context_menus_goote_trans": {
+      "message": "ترجمة الصفحة/إظهار الأصل"
+   },
+   "context_menus_search_by_image": {
+      "message": "البحث بالصورة على بابا"
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "القبض على علي بابا"
+   },
+   "context_menus_translator": {
+      "message": "التقاط للترجمة"
+   },
+   "searchByImage_search": {
+      "message": "البحث السريع عن مماثل"
+   }
+}

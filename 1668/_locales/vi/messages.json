@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Mô tả Plugin",
+      "message": "Plugin chính thức của 1688, hỗ trợ chụp màn hình, tìm sản phẩm tương tự, xu hướng bán hàng, tải tài liệu và thông báo Wangwang."
+   },
+   "extensionName": {
+      "description": "Tên Plugin",
+      "message": "Phiên bản Plugin Trợ lý Mua hàng 1688"
+   }
+}

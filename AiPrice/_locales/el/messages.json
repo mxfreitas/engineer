@@ -1,0 +1,33 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Η αναζήτηση με εικόνα του AiPrice σάς επιτρέπει να βρίσκετε εύκολα πηγές προϊόντων σε ιστότοπους ηλεκτρονικού εμπορίου."
+   },
+   "EXTENSION_NAME": {
+      "message": "AiPrice(AliPrice) — αναζήτηση με εικόνα για εισαγωγές από Κίνα"
+   },
+   "context_menu_screenshot_search": {
+      "message": "Λήψη για αναζήτηση με εικόνα"
+   },
+   "context_menus_search_by_image": {
+      "message": "Αναζήτηση με εικόνα στο $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_search_by_image_capture": {
+      "message": "Καταγραφή στο $storeName$",
+      "placeholders": {
+         "storeName": {
+            "content": "$1"
+         }
+      }
+   },
+   "context_menus_translator": {
+      "message": "Λήψη για μετάφραση"
+   },
+   "searchByImage_search": {
+      "message": "Αναζήτηση με ένα κλικ για τα ίδια στοιχεία"
+   }
+}
